@@ -13,7 +13,6 @@ if (savedFormData) {
 
   emailInput.value = parsedData.email;
   textInput.value = parsedData.message;
-  console.log(parsedData);
 }
 
 feedbackForm.addEventListener('input', throttle(handlerInput, 500));
